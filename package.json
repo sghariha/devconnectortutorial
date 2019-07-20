@@ -1,26 +1,34 @@
 {
-  "name": "devconnector",
+  "name": "devconnectortutorial",
   "version": "1.0.0",
-  "description": "Developers' social media",
+  "description": "Social media app tutorial using MERN stack",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js"
+    "start": "node server",
+    "server": "nodemon server"
   },
-  "author": "Shreeman Hariharan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sghariha/devconnectortutorial.git"
+  },
+  "author": "Shreeman Gokul Hariharan",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sghariha/devconnectortutorial/issues"
+  },
+  "homepage": "https://github.com/sghariha/devconnectortutorial#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "config": "^3.2.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.4.22",
-    "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0",
-    "validator": "^10.11.0"
+    "mongoose": "^5.6.5",
+    "request": "^2.88.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.10"
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
   }
 }
