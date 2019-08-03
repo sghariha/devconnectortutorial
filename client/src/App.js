@@ -9,7 +9,6 @@ import CreateProfile from './components/profile-forms/CreateProfile';
 import PrivateRoute from './components/routing/PrivateRoute';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-//Redux
 import { Provider } from 'react-redux';
 import store from './store';
 import { loadUser } from './actions/auth';
